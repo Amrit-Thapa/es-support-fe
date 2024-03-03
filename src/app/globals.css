@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 0 auto;
+  max-width: 1730px;
+  padding: 0;
+}
+
+.bg-shade {
+  background-color: hsla(62, 0%, 100%, 1);
+  background-image: radial-gradient(
+      at 91% 5%,
+      hsla(267, 0%, 100%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 97% 97%, hsla(182, 93%, 60%, 0.66) 0px, transparent 50%),
+    radial-gradient(at 78% 17%, hsla(0, 0%, 100%, 1) 0px, transparent 50%),
+    radial-gradient(at 60% 23%, hsla(157, 62%, 62%, 1) 0px, transparent 50%),
+    radial-gradient(at 42% 12%, hsla(187, 65%, 73%, 1) 0px, transparent 50%),
+    radial-gradient(at 28% 46%, hsla(202, 73%, 78%, 1) 0px, transparent 50%);
+}
