@@ -10,7 +10,11 @@ export const SectionHead = ({
   white,
 }: ComponentProps<"div"> & {white: boolean}) => {
   return (
-    <div className={classNames("text-lg md:text-5xl", {"text-white": white})}>
+    <div
+      className={classNames("text-lg md:text-5xl font-bold", {
+        "text-white": white,
+      })}
+    >
       {children}
     </div>
   );

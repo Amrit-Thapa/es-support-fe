@@ -1,50 +1,52 @@
 import React from "react";
-import {SectionHead, Container} from "../components/utilityComponents";
+import {SectionHead} from "../components/utilityComponents";
 import TwentyFour from "@/../public/assets/icons/twentyfour.png";
-import Image from "next/image";
+import Project from "@/../public/assets/icons/project.png";
+import dedicated from "@/../public/assets/icons/dedicated.png";
+import invest from "@/../public/assets/icons/invest.png";
 
 const WhyUs = () => {
   return (
-    <section className="bg-darkGray text-white p-5 md:p-20">
-      <div className="py-12">
-        <SectionHead white>Why choose us</SectionHead>
+    <section className="flex justify-between items-start">
+      <div className="ml-24">
+        <SectionHead white={false}>Why choose us</SectionHead>
       </div>
-      <div className="flex flex-wrap gap-10 justify-between">
-        <div className="flex gap-2 ">
-          <Image src={TwentyFour} />
-          <div>
-            <div>24x7 Client Support</div>
-            <div>
+      <div className="flex flex-wrap w-[1150px] gap-5 bg-primaryBlue p-10 text-white rounded-l-3xl">
+        <div className="">
+          <img src={invest.src} className="h-[88px] w-[88px]" />
+          <div className="mt-5">
+            <div className="font-bold text-2xl">24x7 Client Support</div>
+            <div className="font-normal text-base">
               Ensures round-the-clock assistance, fostering customer
               satisfaction.
             </div>
           </div>
         </div>
-        <div className="flex gap-2 ">
-          <Image src={TwentyFour} />
-          <div>
-            <div>24x7 Client Support</div>
-            <div>
+        <div className="">
+          <img src={dedicated.src} className="h-[88px] w-[88px]" />
+          <div className="mt-5">
+            <div className="font-bold text-2xl">24x7 Client Support</div>
+            <div className="font-normal text-base">
               Ensures round-the-clock assistance, fostering customer
               satisfaction.
             </div>
           </div>
         </div>
-        <div className="flex gap-2 items-end">
-          <Image src={TwentyFour} />
-          <div className="h-fit">
-            <div>24x7 Client Support</div>
-            <div>
+        <div className="">
+          <img src={Project.src} className="h-[88px] w-[88px]" />
+          <div className="mt-5">
+            <div className="font-bold text-2xl">24x7 Client Support</div>
+            <div className="font-normal text-base">
               Ensures round-the-clock assistance, fostering customer
               satisfaction.
             </div>
           </div>
         </div>
-        <div className="flex gap-2 ">
-          <Image src={TwentyFour} />
-          <div>
-            <div>24x7 Client Support</div>
-            <div>
+        <div className="">
+          <img src={TwentyFour.src} className="h-[88px] w-[88px]" />
+          <div className="mt-5">
+            <div className="font-bold text-2xl">24x7 Client Support</div>
+            <div className="font-normal text-base">
               Ensures round-the-clock assistance, fostering customer
               satisfaction.
             </div>
