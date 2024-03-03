@@ -1,5 +1,5 @@
 import React, {ComponentProps} from "react";
-import classNames from "../../../node_modules/classnames/index";
+import classNames from "classnames";
 
 export const Container = ({children}: ComponentProps<"div">) => {
   return <div className="">{children}</div>;

@@ -1,6 +1,6 @@
 import React from "react";
 import {SectionHead, Container} from "../components/utilityComponents";
-import TwentyFour from "../../../public/assets/icons/twentyfour.png";
+import TwentyFour from "@/../public/assets/icons/twentyfour.png";
 import Image from "next/image";
 
 const WhyUs = () => {
