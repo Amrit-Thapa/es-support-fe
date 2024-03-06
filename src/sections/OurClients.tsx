@@ -7,13 +7,22 @@ import future from "@/../public/assets/images/Future-group.png";
 
 const OurClients = () => {
   return (
-    <section className="p-24 mt-20 text-center">
-      <SectionHead white={false}>Our Clients</SectionHead>
-      <div className="flex rounded-2xl shadow-lg px-3 py-5 justify-between p-10">
-        <img src={Csri.src} />
-        <img src={genpact.src} />
-        <img src={hcl.src} />
-        <img src={future.src} />
+    <section className="p-24 bg-[#F9F4F1]">
+      <h1 className="text-[40px] font-bold">Our Clients</h1>
+      <div className="whitespace-nowrap h-[70px] overflow-x-auto mt-10">
+        <img src={Csri.src} className="inline-block mr-2 h-16" />
+        <img src={genpact.src} className="inline-block mr-2 h-16" />
+        <img src={hcl.src} className="inline-block mr-2 h-16" />
+        <img src={future.src} className="inline-block mr-2 h-16" />
+        <img src={future.src} className="inline-block mr-2 h-16" />
+        <img src={future.src} className="inline-block mr-2 h-16" />
+        <img src={future.src} className="inline-block mr-2 h-16" />
+        <img src={future.src} className="inline-block mr-2 h-16" />
+        <img src={future.src} className="inline-block mr-2 h-16" />
+        <img src={future.src} className="inline-block mr-2 h-16" />
+        <img src={future.src} className="inline-block mr-2 h-16" />
+        <img src={future.src} className="inline-block mr-2 h-16" />
+        <img src={future.src} className="inline-block mr-2 h-16" />
       </div>
     </section>
   );
