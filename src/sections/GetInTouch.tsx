@@ -4,7 +4,7 @@ import getInTouch from "@/../public/assets/images/getInTouch.png";
 const GetInTouch = () => {
   return (
     <section className="p-24 bg-[#F9F4F1]">
-      <div className="bg-black size-full rounded-xl">
+      <div className="bg-[#162023] size-full rounded-xl">
         <div
           style={{"--image-url": `url(${getInTouch.src})`} as {}}
           className="bg-[image:var(--image-url)] h-[375px] flex items-center justify-center text-[#EFFEFF]"

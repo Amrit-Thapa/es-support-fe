@@ -11,16 +11,20 @@ import "./globals.css";
 
 export default function Home() {
   return (
-    <div className="bg-shade">
-      <Header />
-      <HeroSection />
+    <>
+      <div className="bg-shade1">
+        <Header />
+        <HeroSection />
+      </div>
       <WhyUs />
       <OurClients />
       <AboutUs />
-      <OurServices />
+      {/* <OurServices /> */}
+
+      {/*
       <KeyFeature />
       <GetInTouch />
-      <Footer />
-    </div>
+      <Footer /> */}
+    </>
   );
 }
