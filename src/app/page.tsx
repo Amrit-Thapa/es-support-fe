@@ -19,7 +19,7 @@ export default function Home() {
       <WhyUs />
       <OurClients />
       <AboutUs />
-      {/* <OurServices /> */}
+      <OurServices />
 
       {/*
       <KeyFeature />
