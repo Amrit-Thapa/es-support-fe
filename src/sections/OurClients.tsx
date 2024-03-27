@@ -1,28 +1,24 @@
-import {SectionHead} from "@/components/utilityComponents";
-import React from "react";
 import Csri from "@/../public/assets/images/csir.png";
 import genpact from "@/../public/assets/images/Genpact.png";
 import hcl from "@/../public/assets/images/HCL.png";
 import future from "@/../public/assets/images/Future-group.png";
+import "@/app/globals.css";
 
 const OurClients = () => {
   return (
-    <section className="p-24 bg-[#F9F4F1]">
-      <h1 className="text-[40px] font-bold">Our Clients</h1>
-      <div className="whitespace-nowrap h-[70px] overflow-x-auto mt-10">
-        <img src={Csri.src} className="inline-block mr-2 h-16" />
-        <img src={genpact.src} className="inline-block mr-2 h-16" />
-        <img src={hcl.src} className="inline-block mr-2 h-16" />
-        <img src={future.src} className="inline-block mr-2 h-16" />
-        <img src={future.src} className="inline-block mr-2 h-16" />
-        <img src={future.src} className="inline-block mr-2 h-16" />
-        <img src={future.src} className="inline-block mr-2 h-16" />
-        <img src={future.src} className="inline-block mr-2 h-16" />
-        <img src={future.src} className="inline-block mr-2 h-16" />
-        <img src={future.src} className="inline-block mr-2 h-16" />
-        <img src={future.src} className="inline-block mr-2 h-16" />
-        <img src={future.src} className="inline-block mr-2 h-16" />
-        <img src={future.src} className="inline-block mr-2 h-16" />
+    <section className="bg-lightOrange">
+      <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
+        <div className="text-center md:text-left font-bold md:text-4xl">
+          Our Clients
+        </div>
+        <div className="mt-10">
+          <div className="whitespace-nowrap h-[42px] overflow-x-auto sm:scroll-box flex space-x-4">
+            <img src={Csri.src} className="" />
+            <img src={genpact.src} className="" />
+            <img src={hcl.src} className="" />
+            <img src={future.src} className="" />
+          </div>
+        </div>
       </div>
     </section>
   );

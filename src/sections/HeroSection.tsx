@@ -1,42 +1,72 @@
+"use client";
 import React from "react";
 import image1 from "@/../public/assets/images/image3.jpeg";
+import {MoveUpRight} from "lucide-react";
+import Image from "next/image";
+import useDeviceType from "@/hooks/useDeviceType";
+import "../app/globals.css";
+import classNames from "classnames";
 
 const HeroSection = () => {
-  return (
-    <section className="md:h-[900px] px-24">
-      <div className="flex flex-wrap h-full items-center md:justify-between">
-        <div className="text-5xl md:w-[600px] font-bold leading-[56px]">
-          <div className="text-secondaryBlue text-[42px]">
-            Elevate excellence with
-          </div>
-          <div className="text-primaryLightBlue">Cutting-Edge Facilities</div>
-          <div className="text-secondaryBlue text-[42px]">
-            <span className="text-primaryLightBlue">Management</span> solutions
-          </div>
-          <div className="font-normal text-base leading-4 text-lightGray mt-5">
-            Discover a spectrum of services designed to optimize your business
-            infrastructure and drive unparalleled efficiency
-          </div>
+  const device = useDeviceType();
+  const web = device === "web";
 
-          <div className="flex gap-5 mt-10">
-            <button className="bg-primaryBlue rounded-lg text-white py-4 px-12 font-bold text-lg">
-              Explore services
-            </button>
-            <button className="rounded-lg border border-primaryBlue py-4 px-12 font-bold text-lg">
-              Connect now
-            </button>
-          </div>
+  return (
+    <section className="container mx-auto md:flex md:justify-between md:px-20 px-4 py-16 md:py-36">
+      <div className="text-center md:text-left space-y-3 md:space-y-10 md:max-w-[590px] p-8 md:p-0">
+        <div className="text-[20px] md:text-[44px] font-bold text-primaryLightBlue">
+          <div>Elevate excellence with</div>
+          <span className="text-2xl md:text-[46px] text-primaryBlue">
+            Cutting-Edge Facilities Management{" "}
+          </span>
+          solutions
         </div>
-        <div>
-          <div className="relative">
-            <div className="shadow-[0_4px_24px_-1px_#00000033] rounded-2xl  backdrop-blur-md  h-44 w-[286px] absolute bottom-0 translate-y-2/4 -translate-x-2/4 left-0"></div>
-            <div className="shadow-[0_4px_24px_-1px_#00000033] rounded-2xl  backdrop-blur-md  h-20 w-20 absolute bottom-0 -translate-y-3/4 -translate-x-3/4 left-0 z-10"></div>
-            <img
-              src={image1.src}
-              className="md:h-[502px] md:w-[756px] rounded-2xl"
-            />
-            <div className="shadow-[0_4px_24px_-1px_#00000033] rounded-2xl  backdrop-blur-md  h-44 w-[286px] absolute top-0 -translate-y-2/4 translate-x-1/4 right-0"></div>
-            <div className="shadow-[0_4px_24px_-1px_#00000033] rounded-2xl  backdrop-blur-md  h-20 w-20 absolute top-0 translate-y-3/4 translate-x-1/4 right-0 z-10"></div>
+        <div className="text-[9px] md:text-base text-[#3F4751]">
+          Discover a spectrum of services designed to optimize your business
+          infrastructure and drive unparalleled efficiency
+        </div>
+        <div className="space-x-9">
+          <button className="bg-primaryBlue rounded md:rounded-lg text-white py-1.5 px-4 text-[9px] md:font-bold md:text-lg md:py-4 md:px-12">
+            Explore services
+          </button>
+          <button className="rounded md:rounded-lg border border-primaryBlue text-[9px] md:font-bold md:text-lg py-1 px-4 md:py-4 md:px-12">
+            Connect now <MoveUpRight className="inline" size={web ? 22 : 10} />
+          </button>
+        </div>
+      </div>
+      <div className="px-11 md:p-0 mt-10 md:mt-0">
+        <div
+          className="relative big-box"
+          style={
+            {
+              "--box-width": web ? "200px" : "99px",
+              "--box-height": web ? "110px" : "61px",
+              "--box-after-width": web ? "150px" : "76px",
+              "--box-after-height": web ? "91px" : "46px",
+            } as {}
+          }
+        >
+          <div
+            className="relative small-box"
+            style={
+              {
+                "--box-width": web ? "60px" : "26px",
+                "--box-height": web ? "60px" : "26px",
+                "--box-radius": web ? "10px" : "8px",
+              } as {}
+            }
+          >
+            <div className="relative frame-border">
+              <Image
+                src={image1.src}
+                alt="management group discussion"
+                className={classNames("rounded-md m-auto", {
+                  "!rounded-2xl": web,
+                })}
+                width={web ? 645 : 266}
+                height={web ? 428 : 147}
+              />
+            </div>
           </div>
         </div>
       </div>
