@@ -9,45 +9,47 @@ import insta from "@/../public/assets/icons/insta.png";
 
 const Footer = () => {
   return (
-    <section className="p-24 bg-[#162023] text-[#EFFEFF]">
-      <div className="flex justify-between">
+    <section className="bg-[#162023] text-[#EFFEFF]">
+      <div className="container flex md:justify-between space-y-5 flex-wrap px-4 py-16 md:px-24 md:py-32 m-auto">
         <div className="space-y-4">
           <div className="flex items-center gap-3 w-fit">
-            <img
-              src={Logo.src}
-              width={72}
-              height={54}
-              className="h-[54px] w-[72px] object-contain inline"
-            />
+            <div className="shrink-0 h-auto w-[30px] md:w-[72px]">
+              <img
+                src={Logo.src}
+                width={72}
+                height={54}
+                className="object-contain inline"
+              />
+            </div>
             <div className="m-auto">
-              <div className="font-bold text-xl ">Es-support</div>
-              <div className="font-medium text-[9px]">
+              <div className="font-bold md:text-xl text-[10px]">Es-support</div>
+              <div className="font-medium md:text-[9px] text-[5px]">
                 solution upto satisfaction
               </div>
             </div>
           </div>
-          <div className="w-[280px]">
+          <div className="w-[280px] text-[9px] md:text-base">
             Elevating work environments across the nation through professional
             facilities management.
           </div>
-          <div className="space-y-5">
+          <div className="space-y-2 md:space-y-5 text-[9px] md:text-base">
             <div>
-              <img src={mail.src} className="inline" />
+              <img src={mail.src} className="inline h-4" />
               <a href="mailto:support@essupport.in" className="ml-2">
                 support@essupport.in
               </a>
             </div>
             <div>
-              <img src={phone.src} className="inline" />
+              <img src={phone.src} className="inline h-4" />
               <a href="tel:+919718767374" className="ml-2">
                 +91-9718767374
               </a>
             </div>
           </div>
         </div>
-        <div className="space-y-4">
-          <div className="font-semibold text-lg">Services</div>
-          <div className="space-y-2">
+        <div className="space-y-4 min-w-40">
+          <div className="font-semibold md:text-lg text-[10px]">Services</div>
+          <div className="space-y-2 text-[9px] md:text-base">
             <div>Facility Management</div>
             <div>MEP Services</div>
             <div>HVAC Services</div>
@@ -56,25 +58,25 @@ const Footer = () => {
             <div>Civil & Maintenance</div>
           </div>
         </div>
-        <div className="space-y-4">
-          <div className="font-semibold text-lg">Company</div>
-          <div className="space-y-2">
+        <div className="space-y-4 min-w-40">
+          <div className="font-semibold md:text-lg text-[10px]">Company</div>
+          <div className="space-y-2 text-[9px] md:text-base">
             <div>About</div>
             <div>Blog</div>
             <div>Project</div>
           </div>
         </div>
-        <div className="space-y-4">
-          <div className="font-semibold text-lg">Legal</div>
-          <div className="space-y-2">
+        <div className="space-y-4 min-w-40">
+          <div className="font-semibold md:text-lg text-[10px]">Legal</div>
+          <div className="space-y-2 text-[9px] md:text-base">
             <div>Claim</div>
             <div>Privacy</div>
             <div>Terms</div>
           </div>
         </div>
         <div className="space-y-4">
-          <div className="font-semibold text-lg">Socials</div>
-          <div className="flex items-center gap-2">
+          <div className="font-semibold md:text-lg text-[10px]">Socials</div>
+          <div className="flex items-center gap-2 text-[9px] md:text-base">
             <img src={facebook.src} width={30} />
             <img src={twitter.src} width={30} />
             <img src={insta.src} width={30} />

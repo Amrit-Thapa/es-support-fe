@@ -20,11 +20,9 @@ export default function Home() {
       <OurClients />
       <AboutUs />
       <OurServices />
-
-      {/*
       <KeyFeature />
       <GetInTouch />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }
