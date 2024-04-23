@@ -46,6 +46,15 @@ body {
     rgba(0, 0, 0, 0.2);
 }
 
+.bg-shade-3 {
+  background: linear-gradient(
+    177.98deg,
+    rgba(207, 248, 253, 0) -0.78%,
+    #d3f8fc 55.24%,
+    rgba(206, 248, 253, 0) 102.48%
+  );
+}
+
 .big-box::before,
 .big-box::after {
   content: " ";
