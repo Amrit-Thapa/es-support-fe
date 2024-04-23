@@ -67,7 +67,7 @@ const WhyUs = () => {
               <img
                 src={TwentyFour.src}
                 alt="24x7 Client Support"
-                className="m-auto w-10 h-9 md:w-[62px] md:h-[64px]"
+                className="m-auto w-10 h-9 md:w-[72px] md:h-[64px]"
               />
             </div>
             <div>
