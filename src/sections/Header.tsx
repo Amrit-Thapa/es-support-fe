@@ -4,9 +4,12 @@ import Logo from "@/../public/assets/es-support-log.png";
 import useDeviceType from "@/hooks/useDeviceType";
 import Image from "next/image";
 import {AlignJustify, ChevronDown, X} from "lucide-react";
+import Link from "next/link";
+import {usePathname} from "next/navigation";
 
 const Header = () => {
   const device = useDeviceType();
+  const pathname = usePathname();
   const [menu, setMenu] = React.useState(false);
   const web = device === "web";
   return (
@@ -29,11 +32,19 @@ const Header = () => {
           </div>
         </div>
         <div className="md:flex items-center gap-10 font-bold text-lg hidden">
-          <div className="">Home</div>
-          <div>
+          <Link
+            className={pathname === "/" ? "border-b border-black" : ""}
+            href="/"
+          >
+            Home
+          </Link>
+          <Link
+            className={pathname === "/about" ? "border-b border-black" : ""}
+            href="/about"
+          >
             About
             <ChevronDown className="inline" />
-          </div>
+          </Link>
           <div>
             Services
             <ChevronDown className="inline" />

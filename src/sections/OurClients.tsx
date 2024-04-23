@@ -41,8 +41,8 @@ const OurClients = () => {
         </div>
         <div className="mt-10">
           <div className="whitespace-nowrap h-[42px] overflow-x-auto sm:scroll-box flex space-x-4 no-scrollbar">
-            {partnerList.map((partner) => (
-              <img src={partner} className="" />
+            {partnerList.map((partner, key) => (
+              <img src={partner} key={key} className="" />
             ))}
           </div>
         </div>
