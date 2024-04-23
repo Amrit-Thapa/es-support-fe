@@ -8,7 +8,7 @@ import graph from "@/../public/assets/icons/graph.png";
 
 const KeyFeature = () => {
   return (
-    <section className="bg-shade1">
+    <section className="bg-shade-3">
       <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
         <div className="md:flex w-[273px] md:w-full m-auto md:m-0 pb-5 md:gap-40">
           <div className="text-center md:text-left md:min-w-[410px] font-bold md:text-4xl">
