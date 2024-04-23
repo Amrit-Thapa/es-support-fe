@@ -3,7 +3,7 @@ import React from "react";
 import Logo from "@/../public/assets/es-support-log.png";
 import useDeviceType from "@/hooks/useDeviceType";
 import Image from "next/image";
-import {AlignJustify, X} from "lucide-react";
+import {AlignJustify, ChevronDown, X} from "lucide-react";
 
 const Header = () => {
   const device = useDeviceType();
@@ -29,9 +29,15 @@ const Header = () => {
           </div>
         </div>
         <div className="md:flex items-center gap-10 font-bold text-lg hidden">
-          <div className="underline">Home</div>
-          <div>About</div>
-          <div>Services</div>
+          <div className="">Home</div>
+          <div>
+            About
+            <ChevronDown className="inline" />
+          </div>
+          <div>
+            Services
+            <ChevronDown className="inline" />
+          </div>
           <div>Projects</div>
           <div>Blog</div>
           <button className="bg-primaryBlue rounded-lg text-white py-3 px-11 font-bold text-lg">
