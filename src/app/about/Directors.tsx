@@ -6,7 +6,7 @@ const Directors = () => {
     <section className="bg-lightOrange">
       <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
         <div className="text-center pb-5 md:hidden sm:block">
-          <div className="font-bold">From the Director's desk</div>
+          <div className="font-bold">From the Director&apos;s desk</div>
           <div className="text-xs font-bold">
             Kishlay Thakur, Founder & Director of ES Support.
           </div>
@@ -22,14 +22,14 @@ const Directors = () => {
           </div>
           <div className="space-y-5 text-[9px] md:text-base text-justify mt-10 md:col-span-2">
             <div className="text-4xl text-black hidden md:block font-bold">
-              From the Director's desk
+              From the Director&apos;s desk
             </div>
             <div className="text-lg text-black hidden md:block font-bold">
               Kishlay Thakur, Founder & Director of ES Support.
             </div>
             <div>
-              Armed with a Bachelor's degree in Electrical Engineering
-              (B.Tech),and brings over 12 years of invaluable experience to our
+              Armed with a Bachelor&apos;s degree in Electrical Engineering
+              (B.Tech), and brings over 12 years of invaluable experience to our
               dynamic team. His extensive background in the field not only
               reflects his technical prowess but also underscores a wealth of
               knowledge acquired through years of hands-on expertise.
@@ -38,7 +38,7 @@ const Directors = () => {
               leadership is marked by a commitment to innovation, a keen
               understanding of industry trends, and a dedication to delivering
               unparalleled support services. With a proven track record of
-              successful project management and a forward-thinking approach,is
+              successful project management and a forward-thinking approach, is
               instrumental in ensuring that our clients receive top-notch
               assistance and solutions.
             </div>
