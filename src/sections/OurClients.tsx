@@ -4,14 +4,14 @@ import hcl from "@/../public/assets/images/HCL.png";
 import future from "@/../public/assets/images/Future-group.png";
 import amrita from "@/../public/assets/images/amrita.png";
 import bhel from "@/../public/assets/images/BHEL.png";
-import cognizant from "@/../public/assets/images/cognizant.png";
+import cognizant from "@/../public/assets/images/Cognizant.png";
 import dmrc from "@/../public/assets/images/dmrc.png";
 import drdo from "@/../public/assets/images/DRDO.png";
 import eli from "@/../public/assets/images/EIL.png";
 import fortis from "@/../public/assets/images/Fortis.png";
 import indianOil from "@/../public/assets/images/Indian-Oil.png";
 import maxLife from "@/../public/assets/images/Max-Life.png";
-import pnb from "@/../public/assets/images/pnb.png";
+import pnb from "@/../public/assets/images/PNB.png";
 import samsumg from "@/../public/assets/images/Samsung.png";
 
 const partnerList = [
