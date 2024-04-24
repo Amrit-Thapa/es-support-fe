@@ -14,7 +14,7 @@ const Location = () => {
           Office Locations
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mt-10">
-          <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={registered.src} />
             <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">
@@ -25,7 +25,7 @@ const Location = () => {
               </div>
             </div>
           </div>
-          <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={corporate.src} />
             <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">
@@ -37,7 +37,7 @@ const Location = () => {
               </div>
             </div>
           </div>
-          <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={gujrat.src} />
             <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">Gujarat office</div>
@@ -47,7 +47,7 @@ const Location = () => {
               </div>
             </div>
           </div>
-          <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={bangalore.src} />
             <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">
@@ -58,7 +58,7 @@ const Location = () => {
               </div>
             </div>
           </div>
-          <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={mumbai.src} />
             <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">Mumbai office</div>
@@ -68,7 +68,7 @@ const Location = () => {
               </div>
             </div>
           </div>
-          <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
+          <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={dwarka.src} />
             <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">Dwarka office</div>

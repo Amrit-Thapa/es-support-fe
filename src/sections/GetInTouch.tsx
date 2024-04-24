@@ -7,7 +7,7 @@ const GetInTouch = () => {
       <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
         <div
           style={{"--image-url": `url(${getInTouch.src})`} as {}}
-          className="bg-[image:var(--image-url)] md:h-[375px] h-36 flex items-center justify-center text-[#EFFEFF] bg-[#162023] rounded-lg"
+          className="bg-[image:var(--image-url)] md:h-[375px] h-36 flex items-center justify-center text-[#EFFEFF] bg-[#FF7100] rounded-lg"
         >
           <div className="text-center md:space-y-10 space-y-5">
             <div>

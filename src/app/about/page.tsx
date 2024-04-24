@@ -7,6 +7,7 @@ import Hero from "./Hero";
 import OurValues from "./OurValues";
 import VisionMission from "./VisionMission";
 import Location from "./Location";
+import Certification from "./Certification";
 
 const Page = () => {
   return (
@@ -19,6 +20,7 @@ const Page = () => {
       <Directors />
       <VisionMission />
       <Location />
+      <Certification />
       <GetInTouch />
       <Footer />
     </>
