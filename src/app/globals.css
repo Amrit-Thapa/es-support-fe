@@ -135,3 +135,33 @@ body {
     rgba(255, 255, 255, 0.7) 100%
   );
 }
+
+.card-bg-1 {
+  background: conic-gradient(
+    from 135deg at 50% 50%,
+    #ff7100 0deg,
+    rgba(255, 113, 0, 0.65) 360deg
+  );
+}
+
+.card-bg-2 {
+  background: conic-gradient(
+    from 196.14deg at 50% 50%,
+    #ff7100 0deg,
+    rgba(255, 113, 0, 0.65) 360deg
+  );
+}
+.card-bg-3 {
+  background: conic-gradient(
+    from 16.07deg at 50% 50%,
+    #ff7100 0deg,
+    rgba(255, 113, 0, 0.65) 360deg
+  );
+}
+.card-bg-4 {
+  background: conic-gradient(
+    from -46.34deg at 50% 50%,
+    rgba(255, 113, 0, 0.65) 0deg,
+    #ff7100 360deg
+  );
+}
