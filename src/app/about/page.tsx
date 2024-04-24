@@ -2,6 +2,7 @@ import Footer from "@/sections/Footer";
 import GetInTouch from "@/sections/GetInTouch";
 import Header from "@/sections/Header";
 import React from "react";
+import Directors from "./Directors";
 import Hero from "./Hero";
 import OurValues from "./OurValues";
 
@@ -12,7 +13,8 @@ const Page = () => {
         <Header />
         <Hero />
       </div>
-      <OurValues/>
+      <OurValues />
+      <Directors />
       <GetInTouch />
       <Footer />
     </>
