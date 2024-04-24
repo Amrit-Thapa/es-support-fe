@@ -16,7 +16,7 @@ const Location = () => {
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mt-10">
           <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={registered.src} />
-            <div className="space-y-5">
+            <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">
                 Registered office
               </div>
@@ -27,7 +27,7 @@ const Location = () => {
           </div>
           <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={corporate.src} />
-            <div className="space-y-5">
+            <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">
                 Corporate office
               </div>
@@ -39,7 +39,7 @@ const Location = () => {
           </div>
           <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={gujrat.src} />
-            <div className="space-y-5">
+            <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">Gujarat office</div>
               <div className="text-[10px] md:text-sm">
                 D 201, Sunrise Residency - 3, Chala, Vapi, Dist. Valsad, Gujrat
@@ -49,7 +49,7 @@ const Location = () => {
           </div>
           <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={bangalore.src} />
-            <div className="space-y-5">
+            <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">
                 Bangalore office
               </div>
@@ -60,7 +60,7 @@ const Location = () => {
           </div>
           <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={mumbai.src} />
-            <div className="space-y-5">
+            <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">Mumbai office</div>
               <div className="text-[10px] md:text-sm">
                 912 Sureshwari Techno IT Park Premises CHS, Link Road, Eksar
@@ -70,7 +70,7 @@ const Location = () => {
           </div>
           <div className="bg-primaryBlue text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
             <img src={dwarka.src} />
-            <div className="space-y-5">
+            <div className="space-y-5 md:w-[400px]">
               <div className="font-bold text-xs md:text-xl">Dwarka office</div>
               <div className="text-[10px] md:text-sm">
                 9th floor unit no-905 Vegas mall sec-14 Dwarka, Delhi
