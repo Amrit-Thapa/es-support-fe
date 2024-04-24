@@ -45,10 +45,13 @@ const Header = () => {
             About
             <ChevronDown className="inline" />
           </Link>
-          <div>
+          <Link
+            className={pathname === "/services" ? "border-b border-black" : ""}
+            href="/services"
+          >
             Services
             <ChevronDown className="inline" />
-          </div>
+          </Link>
           <div>Projects</div>
           <div>Blog</div>
           <button className="bg-primaryBlue rounded-lg text-white py-3 px-11 font-bold text-lg">
@@ -78,7 +81,16 @@ const Header = () => {
               About
             </Link>
           </div>
-          <div>Service</div>
+          <div>
+            <Link
+              className={
+                pathname === "/services" ? "border-b border-black" : ""
+              }
+              href="/services"
+            >
+              Service
+            </Link>
+          </div>
           <div>Projects</div>
           <div>Blogs</div>
           <button className="bg-white rounded-lg py-3 px-11 text-primaryBlue font-bold text-lg">
