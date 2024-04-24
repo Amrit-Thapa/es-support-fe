@@ -2,19 +2,17 @@ import Footer from "@/sections/Footer";
 import GetInTouch from "@/sections/GetInTouch";
 import Header from "@/sections/Header";
 import React from "react";
+import Hero from "./Hero";
+import OurValues from "./OurValues";
 
 const Page = () => {
   return (
     <>
-      <div className="bg-shade1">
+      <div className="bg-[#FF710014]">
         <Header />
-        {/* <HeroSection /> */}
+        <Hero />
       </div>
-      {/* <WhyUs />
-      <OurClients />
-      <AboutUs />
-      <OurServices /> */}
-      {/* <KeyFeature /> */}
+      <OurValues/>
       <GetInTouch />
       <Footer />
     </>

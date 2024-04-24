@@ -60,13 +60,24 @@ const Header = () => {
         </button>
       </div>
       {menu && (
-        <div className="w-full h-[800px] bg-primaryBlue text-white p-20 absolute top-0 left-0 space-y-10">
+        <div className="w-full h-[800px] bg-primaryBlue text-white p-20 absolute z-20 top-0 left-0 space-y-10">
           <X
             className="absolute text-white top-5 right-5 cursor-pointer"
             onClick={() => setMenu(false)}
           />
-          <div>Home</div>
-          <div>About</div>
+          <div>
+            <Link className={pathname === "/" ? "text-white" : ""} href="/">
+              Home
+            </Link>
+          </div>
+          <div>
+            <Link
+              className={pathname === "/about" ? "border-b border-black" : ""}
+              href="/about"
+            >
+              About
+            </Link>
+          </div>
           <div>Service</div>
           <div>Projects</div>
           <div>Blogs</div>
