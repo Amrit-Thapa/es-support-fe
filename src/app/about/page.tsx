@@ -5,6 +5,7 @@ import React from "react";
 import Directors from "./Directors";
 import Hero from "./Hero";
 import OurValues from "./OurValues";
+import VisionMission from "./VisionMission";
 
 const Page = () => {
   return (
@@ -15,6 +16,7 @@ const Page = () => {
       </div>
       <OurValues />
       <Directors />
+      <VisionMission />
       <GetInTouch />
       <Footer />
     </>

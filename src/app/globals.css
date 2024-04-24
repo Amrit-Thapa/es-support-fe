@@ -165,3 +165,25 @@ body {
     #ff7100 360deg
   );
 }
+
+.box-overlay::before,
+.box-overlay::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 64px;
+  backdrop-filter: blur(25px);
+  z-index: 2;
+  border-radius: 0.5rem;
+  box-shadow: 0px 1.3353657722473145px 8.012194633483887px -0.3338414430618286px
+    rgba(0, 0, 0, 0.1);
+}
+.box-overlay::before {
+  top: 0;
+  transform: translate(-50%, 30%);
+}
+.box-overlay::after {
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, -30%);
+}
