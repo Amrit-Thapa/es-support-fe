@@ -4,7 +4,6 @@ import image1 from "@/../public/assets/images/image3.jpeg";
 import {MoveUpRight} from "lucide-react";
 import Image from "next/image";
 import useDeviceType from "@/hooks/useDeviceType";
-import "../app/globals.css";
 import classNames from "classnames";
 
 const HeroSection = () => {

@@ -18,6 +18,9 @@ module.exports = {
         lightOrange: "#F9F4F1",
         orange: "#FF7100",
       },
+      dropShadow: {
+        "3xl": "0px 3.39px 20.34px -0.85px rgba(0, 0, 0, 0.2)",
+      },
     },
   },
   plugins: [],

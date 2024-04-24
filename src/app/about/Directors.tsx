@@ -11,7 +11,7 @@ const Directors = () => {
             Kishlay Thakur, Founder & Director of ES Support.
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 md:flex-row justify-center md:items-end w-3/4 md:w-full m-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 justify-center md:items-end w-3/4 md:w-full m-auto">
           <div className="relative h-[251px] md:h-80 md:w-[309px]">
             <div className="absolute h-full w-20 bg-black rounded-t-lg"></div>
             <img
