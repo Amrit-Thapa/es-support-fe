@@ -61,9 +61,15 @@ const Footer = () => {
         <div className="space-y-4 min-w-40">
           <div className="font-semibold md:text-lg text-[10px]">Company</div>
           <div className="space-y-2 text-[9px] md:text-base">
-            <div>About</div>
-            <div>Blog</div>
-            <div>Project</div>
+            <div>
+              <a href="/about">About</a>
+            </div>
+            <div>
+              <a href="/blog">Blog</a>
+            </div>
+            <div>
+              <a href="/projects">Project</a>
+            </div>
           </div>
         </div>
         <div className="space-y-4 min-w-40">

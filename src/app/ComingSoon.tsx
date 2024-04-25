@@ -6,7 +6,7 @@ import React from "react";
 
 const LostSection = () => {
   return (
-    <section className="container mx-auto md:px-20 px-4 text-center md:my-40 space-y-5">
+    <section className="container mx-auto md:px-20 px-4 text-center md:mt-40 space-y-5">
       <div>
         <img alt="logo" src={Logo.src} className="m-auto" />
       </div>

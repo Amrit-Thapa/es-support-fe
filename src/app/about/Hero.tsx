@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto md:px-20 px-4 py-16 md:py-36 text-center">
+    <section className="container mx-auto md:px-20 px-4 py-16 md:pt-36 text-center">
       <div className="mx-auto text-[9px] font-bold md:text-base">About Us</div>
       <div className="text-[20px] mt-2 md:text-[44px] font-bold ">
         We’re a distributed team

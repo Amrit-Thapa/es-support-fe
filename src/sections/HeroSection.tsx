@@ -4,6 +4,7 @@ import image1 from "@/../public/assets/images/image3.jpeg";
 import {MoveUpRight} from "lucide-react";
 import Image from "next/image";
 import useDeviceType from "@/hooks/useDeviceType";
+import "../app/globals.css";
 import classNames from "classnames";
 
 const HeroSection = () => {
@@ -25,12 +26,17 @@ const HeroSection = () => {
           infrastructure and drive unparalleled efficiency
         </div>
         <div className="space-x-9">
-          <button className="bg-primaryBlue rounded md:rounded-lg text-white py-1.5 px-4 text-[9px] md:font-bold md:text-lg md:py-4 md:px-12">
-            Explore services
-          </button>
-          <button className="rounded md:rounded-lg border border-primaryBlue text-[9px] md:font-bold md:text-lg py-1 px-4 md:py-4 md:px-12">
-            Connect now <MoveUpRight className="inline" size={web ? 22 : 10} />
-          </button>
+          <a href="/services">
+            <button className="bg-primaryBlue rounded md:rounded-lg text-white py-1.5 px-4 text-[9px] md:font-bold md:text-lg md:py-4 md:px-12">
+              Explore services
+            </button>
+          </a>
+          <a href="/contact-us">
+            <button className="rounded md:rounded-lg border border-primaryBlue text-[9px] md:font-bold md:text-lg py-1 px-4 md:py-4 md:px-12">
+              Connect now
+              <MoveUpRight className="inline" size={web ? 22 : 10} />
+            </button>
+          </a>
         </div>
       </div>
       <div className="px-11 md:p-0 mt-10 md:mt-0">

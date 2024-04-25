@@ -35,10 +35,8 @@ const VisionMission = () => {
               </div>
             </div>
           </div>
-          <div className="bg-[#162023] h-[205.07px] w-[188.04px] md:h-[410.95px] md:w-[376.82px] rounded-lg m-auto relative box-overlay order-1 md:order-2">
-            <div className="absolute -translate-x-2/4 -translate-y-2/4 backdrop-blur-3xl w-24 h-16 rounded-lg"></div>
+          <div className="rounded-lg m-auto order-1 md:order-2">
             <img src={vision.src} alt="icon" />
-            <div className="absolute translate-x-2/4 translate-y-2/4 bottom-0 right-0 backdrop-blur-3xl w-24 h-16 rounded-lg"></div>
           </div>
         </div>
       </div>

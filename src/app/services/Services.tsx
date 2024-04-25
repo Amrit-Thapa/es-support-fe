@@ -9,7 +9,7 @@ import service6 from "@/../public/assets/images/service6.png";
 const Services = () => {
   return (
     <section className="bg-lightOrange">
-      <div className="container mx-auto md:px-20 px-4 py-5 md:py-36">
+      <div className="container mx-auto md:px-20 px-4 py-5 md:pt-36">
         <div className="grid md:grid-cols-3 grid-cols-1 gap-10 md:px-20 m-auto">
           <div
             style={{"--image-url": `url(${service1.src})`} as {}}

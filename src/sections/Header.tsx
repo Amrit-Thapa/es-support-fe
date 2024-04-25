@@ -52,10 +52,27 @@ const Header = () => {
             Services
             <ChevronDown className="inline" />
           </Link>
-          <div>Projects</div>
-          <div>Blog</div>
+          <Link
+            className={pathname === "/projects" ? "border-b border-black" : ""}
+            href="/projects"
+          >
+            Projects
+          </Link>
+          <Link
+            className={pathname === "/blogs" ? "border-b border-black" : ""}
+            href="/blogs"
+          >
+            Blogs
+          </Link>
           <button className="bg-primaryBlue rounded-lg text-white py-3 px-11 font-bold text-lg">
-            Contact Us
+            <Link
+              className={
+                pathname === "/contact-us" ? "border-b border-black" : ""
+              }
+              href="/contact-us"
+            >
+              Contact Us
+            </Link>
           </button>
         </div>
         <button className="md:hidden" onClick={() => setMenu(true)}>
@@ -91,10 +108,33 @@ const Header = () => {
               Service
             </Link>
           </div>
-          <div>Projects</div>
-          <div>Blogs</div>
+          <div>
+            <Link
+              className={
+                pathname === "/projects" ? "border-b border-black" : ""
+              }
+              href="/projects"
+            >
+              Projects
+            </Link>
+          </div>
+          <div>
+            <Link
+              className={pathname === "/blogs" ? "border-b border-black" : ""}
+              href="/blogs"
+            >
+              Blogs
+            </Link>
+          </div>
           <button className="bg-white rounded-lg py-3 px-11 text-primaryBlue font-bold text-lg">
-            Contact Us
+            <Link
+              className={
+                pathname === "/contact-us" ? "border-b border-black" : ""
+              }
+              href="/contact-us"
+            >
+              Contact Us
+            </Link>
           </button>
         </div>
       )}
