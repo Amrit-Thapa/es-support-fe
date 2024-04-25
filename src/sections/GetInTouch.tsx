@@ -1,9 +1,9 @@
 import React from "react";
 import getInTouch from "@/../public/assets/images/getInTouch.png";
 
-const GetInTouch = () => {
+const GetInTouch = ({bg}: {bg?: string}) => {
   return (
-    <section className="bg-lightOrange">
+    <section className={bg || "bg-lightOrange"}>
       <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
         <div
           style={{"--image-url": `url(${getInTouch.src})`} as {}}
