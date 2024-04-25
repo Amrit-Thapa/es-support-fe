@@ -16,12 +16,14 @@ const GetInTouch = ({bg}: {bg?: string}) => {
                 To connect with more people and discuss in strategy
               </div>
             </div>
-            <a
-              className="bg-[#EFFEFF] text-black md:py-4 md:px-8 px-4 py-2 rounded-md text-[9px] md:text-base"
-              href="/contact-us"
-            >
-              Connect now
-            </a>
+
+            <div>
+              <a href="/contact-us">
+                <button className="bg-[#EFFEFF] text-black md:py-4 md:px-8 px-4 py-2 rounded-md text-[9px] md:text-base">
+                  Connect now
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
