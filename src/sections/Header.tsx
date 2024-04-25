@@ -64,16 +64,12 @@ const Header = () => {
           >
             Blogs
           </Link>
-          <button className="bg-primaryBlue rounded-lg text-white py-3 px-11 font-bold text-lg">
-            <Link
-              className={
-                pathname === "/contact-us" ? "border-b border-black" : ""
-              }
-              href="/contact-us"
-            >
-              Contact Us
-            </Link>
-          </button>
+          <a
+            className="bg-primaryBlue rounded-lg text-white py-3 px-11 font-bold text-lg"
+            href="/contact-us"
+          >
+            Contact Us
+          </a>
         </div>
         <button className="md:hidden" onClick={() => setMenu(true)}>
           <AlignJustify />
