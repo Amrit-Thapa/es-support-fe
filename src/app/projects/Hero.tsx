@@ -3,9 +3,9 @@ import fileSetting from "@/../public/assets/icons/fileSetting.png";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto md:px-20 px-4 py-16 md:pt-36 text-center">
-      <div className="container mx-auto px-4 py-16 md:px-24 md:pt-32">
-        <div className="md:text-4xl text-base font-bold text-center md:text-left">
+    <section className="container mx-auto md:px-20 px-4 py-2 md:py-10 text-center">
+      <div className="container mx-auto px-4 py-16 md:px-24">
+        <div className="md:text-4xl text-base font-bold text-center md:text-left md:py-10">
           Our Major Project
         </div>
         <div className="grid md:grid-cols-4 grid-cols-1 gap-5 mt-10">
