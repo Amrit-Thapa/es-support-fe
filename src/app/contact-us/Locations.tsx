@@ -11,7 +11,7 @@ const Locations = () => {
     <section className="bg-lightOrange">
       <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
         <div className="md:text-4xl text-base font-bold text-center md:text-left">
-          Office Locations
+          Other Office Locations
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mt-10">
           <div className="bg-darkGray text-white flex rounded-xl justify-center items-center px-5 pt-10 gap-5">
