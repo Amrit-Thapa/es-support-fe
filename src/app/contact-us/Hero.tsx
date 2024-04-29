@@ -9,7 +9,7 @@ import insta from "@/../public/assets/icons/insta.png";
 const Hero = () => {
   return (
     <section className="container mx-auto md:px-20 px-4 py-16 md:pt-36">
-      <div className="grid grid-cols-2 gap-40">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-40">
         <div>
           <div className="mx-auto text-[9px] font-bold md:text-base">
             Get in Touch
@@ -86,7 +86,7 @@ const Hero = () => {
             </button>
           </form>
         </div>
-        <div className="bg-[#FF7100] md:p-10 text-white flex flex-col justify-around">
+        <div className="bg-[#FF7100] md:p-10 p-5 text-white flex gap-5 flex-col justify-around">
           <div className="text-[20px] mt-2 md:text-[44px] font-bold ">Info</div>
           <div className="">
             <Mail className="inline " />
