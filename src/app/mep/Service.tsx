@@ -16,13 +16,13 @@ const Service = () => {
               Our services
             </div>
             <div className="mt-5 md:mt-10 text-[9px] w-3/4 md:w-full md:text-base text-justify m-auto md:m-0">
-              Elevate Your Infrastructure with ES Support's Cutting-Edge MEP
-              Services. At ES Support, we take pride in delivering comprehensive
-              Mechanical, Electrical, and Plumbing (MEP) services that form the
-              backbone of modern infrastructure. Our MEP solutions are designed
-              to optimize the functionality, efficiency, and sustainability of
-              your facilities, ensuring seamless integration and performance
-              across all MEP systems.
+              Elevate Your Infrastructure with ES Support&apos;s Cutting-Edge
+              MEP Services. At ES Support, we take pride in delivering
+              comprehensive Mechanical, Electrical, and Plumbing (MEP) services
+              that form the backbone of modern infrastructure. Our MEP solutions
+              are designed to optimize the functionality, efficiency, and
+              sustainability of your facilities, ensuring seamless integration
+              and performance across all MEP systems.
             </div>
             <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:w-full md:text-base text-justify m-auto md:m-0">
               Mechanical services, encompassing HVAC systems and more, are
@@ -34,11 +34,12 @@ const Service = () => {
               emphasizing efficiency and adherence to industry standards.
             </div>
             <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
-              ES Support's MEP services are characterized by a commitment to
-              innovation and technical excellence. Our experienced engineers and
-              technicians collaborate to provide customized solutions that align
-              with the specific requirements of your project, whether it's a
-              commercial space, industrial facility, or residential development.
+              ES Support&apos;s MEP services are characterized by a commitment
+              to innovation and technical excellence. Our experienced engineers
+              and technicians collaborate to provide customized solutions that
+              align with the specific requirements of your project, whether
+              it&apos;s a commercial space, industrial facility, or residential
+              development.
             </div>
             <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
               By choosing ES Support for MEP services, you are opting for a
@@ -50,7 +51,7 @@ const Service = () => {
             </div>
             <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
               Experience the synergy of cutting-edge technology and unparalleled
-              expertise with ES Support's MEP services. Trust us to be your
+              expertise with ES Support&apos;s MEP services. Trust us to be your
               reliable partner in building and maintaining infrastructures that
               stand the test of time.
             </div>
