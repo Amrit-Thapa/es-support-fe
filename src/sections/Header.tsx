@@ -7,13 +7,13 @@ import {AlignJustify, ChevronDown, X} from "lucide-react";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 
-const Header = () => {
+const Header = ({css}: {css?: string}) => {
   const device = useDeviceType();
   const pathname = usePathname();
   const [menu, setMenu] = React.useState(false);
   const web = device === "web";
   return (
-    <div className="h-14 md:h-24 shadow-lg py-5">
+    <div className={css || "h-14 md:h-24 shadow-lg py-5"}>
       <div className="container px-4 m-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div>
