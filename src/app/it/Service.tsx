@@ -14,10 +14,10 @@ const Service = () => {
               Our services
             </div>
             <div className="mt-5 md:mt-10 text-[9px] w-3/4 md:w-full md:text-base text-justify m-auto md:m-0">
-              Welcome to ES SUPPORT's comprehensive IT Services. We specialize
-              in providing tailored solutions to meet all your IT needs,
-              including desktop maintenance, software maintenance, and hardware
-              work.
+              Welcome to ES SUPPORT&apos;s comprehensive IT Services. We
+              specialize in providing tailored solutions to meet all your IT
+              needs, including desktop maintenance, software maintenance, and
+              hardware work.
             </div>
 
             <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
@@ -119,11 +119,11 @@ const Service = () => {
             <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:text-base md:w-full text-justify m-auto md:m-0">
               <div>
                 At ES SUPPORT, we understand the importance of reliable IT
-                services in today's business landscape. With our expertise and
-                commitment to excellence, we ensure that your IT infrastructure
-                remains robust, secure, and efficient, allowing you to focus on
-                your core business objectives. Contact us today to learn more
-                about how we can support your IT needs.
+                services in today&apos;s business landscape. With our expertise
+                and commitment to excellence, we ensure that your IT
+                infrastructure remains robust, secure, and efficient, allowing
+                you to focus on your core business objectives. Contact us today
+                to learn more about how we can support your IT needs.
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 pb-20 pt-10 gap-2">
