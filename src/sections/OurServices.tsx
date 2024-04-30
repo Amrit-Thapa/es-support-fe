@@ -44,14 +44,14 @@ const OurServices = () => {
             >
               <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
                 <div className="font-bold text-xs md:text-xl text-white">
-                  Operation and Maintenance Services
+                  IT Services
                 </div>
                 <div className="text-[#EFFEFF] font-normal text-[9px] md:text-base">
-                  Fostering success by providing skilled professionals to drive
-                  your technology initiatives forward.
+                  Allow your businesses to access the technical tools and
+                  information for your operational processes and daily tasks
                 </div>
                 <a
-                  href="/operation"
+                  href="/it"
                   className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
                 >
                   Know more
@@ -86,15 +86,18 @@ const OurServices = () => {
             >
               <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
                 <div className="font-bold text-xs md:text-xl text-white">
-                  HVAC Services
+                  Operation and Maintenance Services
                 </div>
                 <div className="text-[#EFFEFF] font-normal text-[9px] md:text-base">
-                  Climate control precision for comfort and efficiency in every
-                  environment.
+                  Fostering success by providing skilled professionals to drive
+                  your technology initiatives forward.
                 </div>
-                <button className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal">
+                <a
+                  href="/operation"
+                  className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
+                >
                   Know more
-                </button>
+                </a>
               </div>
             </div>
             <div

@@ -34,7 +34,7 @@ const Services = () => {
           </div>
 
           <div
-            style={{"--image-url": `url(${service2.src})`} as {}}
+            style={{"--image-url": `url(${service3.src})`} as {}}
             className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px] rounded-lg m-auto"
           >
             <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
@@ -76,20 +76,23 @@ const Services = () => {
           </div>
 
           <div
-            style={{"--image-url": `url(${service3.src})`} as {}}
+            style={{"--image-url": `url(${service2.src})`} as {}}
             className="bg-[image:var(--image-url)] w-64 h-72 md:w-[341px] md:h-[384px] rounded-lg m-auto"
           >
             <div className="bg-gradient-to-t from-[#162023] size-full justify-end p-5 flex flex-col gap-2 md:gap-5">
               <div className="font-bold text-xs md:text-xl text-white">
-                HVAC Services
+                IT Services
               </div>
               <div className="text-[#EFFEFF] font-normal text-[9px] md:text-base">
-                Climate control precision for comfort and efficiency in every
-                environment.
+                Allow your businesses to access the technical tools and
+                information for your operational processes and daily tasks
               </div>
-              <button className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal">
+              <a
+                href="/it"
+                className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
+              >
                 Know more
-              </button>
+              </a>
             </div>
           </div>
 
