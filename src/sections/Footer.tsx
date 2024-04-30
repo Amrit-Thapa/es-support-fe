@@ -53,7 +53,7 @@ const Footer = () => {
             <a href="/facility">Facility Management</a>
             <a href="/mep">MEP Services</a>
             <a href="/operation">HVAC Services</a>
-            <a href="/operation">Security Services</a>
+            <a href="/security">Security Services</a>
             <a href="/operation">Operation & Maintenance</a>
             <a href="/operation">Civil & Maintenance</a>
           </div>
