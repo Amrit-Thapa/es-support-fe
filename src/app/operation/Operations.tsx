@@ -20,14 +20,14 @@ const Operations = () => {
               commitment is to align seamlessly with the unique needs of
               enterprises and organizations of all sizes, delivering a diverse
               range of operational and maintenance services alongside top-notch
-              engineering consultancy. At ES SUPPORT, we don't just provide
+              engineering consultancy. At ES SUPPORT, we don&apos;t just provide
               services – we embark on a journey with our clients, determined to
               exceed expectations and deliver desired results.
             </div>
             <div className="mt-3 md:mt-10 text-[9px] w-3/4 md:w-full md:text-base text-justify m-auto md:m-0">
               With a seasoned technical team boasting extensive experience
               across various industries, we tailor solutions to the distinct
-              nuances of our client's industries. From comprehensive fleet
+              nuances of our client&apos;s industries. From comprehensive fleet
               management to robust quality assurance, ES SUPPORT ensures clients
               not only meet but exceed their operational goals.
             </div>
@@ -59,9 +59,9 @@ const Operations = () => {
                     </div>
                     <div className="text-[9px] md:text-base w-full text-justify">
                       At ES SUPPORT, we customize our HVAC plant maintenance
-                      services to suit your facility's unique needs, whether
-                      commercial, industrial, or residential. Our aim is to
-                      enhance energy efficiency, indoor air quality, and
+                      services to suit your facility&apos;s unique needs,
+                      whether commercial, industrial, or residential. Our aim is
+                      to enhance energy efficiency, indoor air quality, and
                       equipment lifespan.
                     </div>
                     <div className="text-[9px] md:text-base">
@@ -84,9 +84,9 @@ const Operations = () => {
                 <AccordionItem>
                   <div className="space-y-5">
                     <div className="text-[9px] md:text-base w-full text-justify">
-                      Enhance your electrical infrastructure with ES Support's
-                      premier Maintenance Solutions. Specializing in
-                      comprehensive electrical maintenance, our skilled
+                      Enhance your electrical infrastructure with ES
+                      Support&apos;s premier Maintenance Solutions. Specializing
+                      in comprehensive electrical maintenance, our skilled
                       professionals ensure seamless operation across commercial,
                       industrial, and residential settings. Our services include
                       proactive measures like routine inspections, diagnostic
@@ -123,9 +123,9 @@ const Operations = () => {
                 <AccordionItem>
                   <div className="space-y-5">
                     <div className="text-[9px] md:text-base w-full text-justify">
-                      Enhance your electrical infrastructure with ES Support's
-                      premier Maintenance Solutions. Specializing in
-                      comprehensive electrical maintenance, our skilled
+                      Enhance your electrical infrastructure with ES
+                      Support&apos;s premier Maintenance Solutions. Specializing
+                      in comprehensive electrical maintenance, our skilled
                       professionals ensure seamless operation across commercial,
                       industrial, and residential settings. Our services include
                       proactive measures like routine inspections, diagnostic
@@ -139,7 +139,8 @@ const Operations = () => {
                       for power distribution panels, lighting systems, or other
                       components. Choose us as your trusted partner for
                       operational excellence and peace of mind in your
-                      electrical infrastructure's reliability and longevity.
+                      electrical infrastructure&apos;s reliability and
+                      longevity.
                     </div>
                   </div>
                 </AccordionItem>
