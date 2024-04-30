@@ -49,13 +49,13 @@ const Footer = () => {
         </div>
         <div className="space-y-4 min-w-40">
           <div className="font-semibold md:text-lg text-[10px]">Services</div>
-          <div className="space-y-2 text-[9px] md:text-base">
-            <div>Facility Management</div>
-            <div>MEP Services</div>
-            <div>HVAC Services</div>
-            <div>Security Services</div>
-            <div>Operation & Maintenance</div>
-            <div>Civil & Maintenance</div>
+          <div className="space-y-2 text-[9px] md:text-base flex flex-col">
+            <a href="/operation">Facility Management</a>
+            <a href="/operation">MEP Services</a>
+            <a href="/operation">HVAC Services</a>
+            <a href="/operation">Security Services</a>
+            <a href="/operation">Operation & Maintenance</a>
+            <a href="/operation">Civil & Maintenance</a>
           </div>
         </div>
         <div className="space-y-4 min-w-40">

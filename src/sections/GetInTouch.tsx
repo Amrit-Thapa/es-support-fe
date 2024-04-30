@@ -1,10 +1,20 @@
 import React from "react";
 import getInTouch from "@/../public/assets/images/getInTouch.png";
 
-const GetInTouch = ({bg}: {bg?: string}) => {
+const GetInTouch = ({
+  bg,
+  containerCss,
+}: {
+  bg?: string;
+  containerCss?: string;
+}) => {
   return (
     <section className={bg || "bg-lightOrange"}>
-      <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
+      <div
+        className={
+          containerCss || "container mx-auto px-4 py-16 md:px-24 md:py-32"
+        }
+      >
         <div
           style={{"--image-url": `url(${getInTouch.src})`} as {}}
           className="bg-[image:var(--image-url)] md:h-[375px] h-36 flex items-center justify-center text-[#EFFEFF] bg-[#FF7100] rounded-lg"
