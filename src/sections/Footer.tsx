@@ -50,7 +50,7 @@ const Footer = () => {
         <div className="space-y-4 min-w-40">
           <div className="font-semibold md:text-lg text-[10px]">Services</div>
           <div className="space-y-2 text-[9px] md:text-base flex flex-col">
-            <a href="/operation">Facility Management</a>
+            <a href="/facility">Facility Management</a>
             <a href="/mep">MEP Services</a>
             <a href="/operation">HVAC Services</a>
             <a href="/operation">Security Services</a>

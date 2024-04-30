@@ -24,9 +24,12 @@ const Services = () => {
                 Elevating efficiency through integrated facilities management
                 solutions.
               </div>
-              <button className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal">
+              <a
+                href="/facility"
+                className="border border-[#EFFEFF] text-[#EFFEFF] rounded-md w-fit py-1 px-3 md:py-2 md:px-4 text-[10px] md:text-xs font-normal"
+              >
                 Know more
-              </button>
+              </a>
             </div>
           </div>
 

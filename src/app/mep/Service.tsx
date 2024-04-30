@@ -1,5 +1,3 @@
-"use client";
-import Accordion, {AccordionItem} from "@/components/Accordion";
 import React from "react";
 import mep1 from "@/../public/assets/images/mep1.png";
 import mep2 from "@/../public/assets/images/mep2.png";
