@@ -228,22 +228,28 @@ const Operations = () => {
                 Our Services
               </div>
               <li className="list-before list-none">
-                <span className="ml-16">AMC (Annual Maintenance Contract)</span>
+                <span className="ml-16 font-bold">
+                  Operation and Maintenance Services
+                </span>
               </li>
               <li className="list-before list-none">
-                <span className="ml-16">Chiller Installation</span>
+                <span className="ml-16">
+                  Facility Management (Soft Services)
+                </span>
               </li>
               <li className="list-before list-none">
-                <span className="ml-16">AHU Installation</span>
+                <span className="ml-16">IT Services</span>
               </li>
               <li className="list-before list-none">
-                <span className="ml-16">TFA Installation</span>
+                <span className="ml-16">Security Services</span>
               </li>
               <li className="list-before list-none">
-                <span className="ml-16">VRF/VRV Units</span>
+                <span className="ml-16">MEP Services</span>
               </li>
               <li className="list-before list-none">
-                <span className="ml-16"> Package/Ductable/Split/Windows</span>
+                <span className="ml-16">
+                  Civil Engineering & Maintenance Services
+                </span>
               </li>
             </div>
           </div>
