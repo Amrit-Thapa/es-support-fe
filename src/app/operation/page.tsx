@@ -9,7 +9,10 @@ import Operations from "./Operations";
 const Page = () => {
   return (
     <>
-      <div style={{backgroundImage: `url(${operation.src})`} as {}}>
+      <div
+        style={{backgroundImage: `url(${operation.src})`} as {}}
+        className="bg-cover bg-no-repeat"
+      >
         <div className="backdrop-blur-md">
           <Header />
         </div>
