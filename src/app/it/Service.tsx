@@ -77,7 +77,7 @@ const Service = () => {
                   Performance monitoring and optimization to enhance efficiency
                 </li>
                 <li className="list-disc">
-                  Technical support and helpdesk services for software-related
+                  Technical support and help desk services for software-related
                   issues.
                 </li>
               </ul>

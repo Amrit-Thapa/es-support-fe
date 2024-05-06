@@ -3,7 +3,7 @@ import director from "@/../public/assets/images/director.png";
 
 const Directors = () => {
   return (
-    <section className="bg-lightOrange">
+    <section className="bg-lightOrange" id="director">
       <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
         <div className="text-center pb-5 md:hidden sm:block">
           <div className="font-bold">From the Director&apos;s desk</div>

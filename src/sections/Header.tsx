@@ -38,20 +38,62 @@ const Header = ({css}: {css?: string}) => {
           >
             Home
           </Link>
-          <Link
-            className={pathname === "/about" ? "border-b border-black" : ""}
-            href="/about"
-          >
-            About
-            <ChevronDown className="inline" />
-          </Link>
-          <Link
-            className={pathname === "/services" ? "border-b border-black" : ""}
-            href="/services"
-          >
-            Services
-            <ChevronDown className="inline" />
-          </Link>
+          <div className="dropdown">
+            <button
+              className={
+                pathname === "/about"
+                  ? "border-b border-black dropbtn"
+                  : "dropbtn"
+              }
+            >
+              About
+              <ChevronDown className="inline" />
+            </button>
+            <div className="dropdown-content">
+              <ul>
+                <a href="/about#director">
+                  <li>Know Our Director</li>
+                </a>
+                <a href="/about#certification">
+                  <li>Certification</li>
+                </a>
+              </ul>
+            </div>
+          </div>
+          <div className="dropdown">
+            <button
+              className={
+                pathname === "/services"
+                  ? "border-b border-black dropbtn"
+                  : "dropbtn"
+              }
+            >
+              Services
+              <ChevronDown className="inline" />
+            </button>
+            <div className="dropdown-content">
+              <ul className="">
+                <a href="/facility">
+                  <li>Facility Management</li>
+                </a>
+                <a href="/operation">
+                  <li>Operation & Maintenance</li>
+                </a>
+                <a href="/mep">
+                  <li>MEP Services</li>
+                </a>
+                <a href="/it">
+                  <li>IT Services</li>
+                </a>
+                <a href="/security">
+                  <li>Security Services</li>
+                </a>
+                <a href="/civil">
+                  <li>Civil & Maintenance</li>
+                </a>
+              </ul>
+            </div>
+          </div>
           <Link
             className={pathname === "/projects" ? "border-b border-black" : ""}
             href="/projects"

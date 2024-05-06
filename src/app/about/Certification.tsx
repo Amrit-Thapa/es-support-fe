@@ -2,7 +2,7 @@ import React from "react";
 
 const Certification = () => {
   return (
-    <section className="bg-lightOrange">
+    <section className="bg-lightOrange" id="certification">
       <div className="container mx-auto px-4 py-16 md:px-24 md:py-32">
         <div className="md:text-4xl text-base font-bold text-center md:text-left">
           Certifications

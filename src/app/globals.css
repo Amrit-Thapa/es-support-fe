@@ -18,6 +18,7 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+
 .bg-shade1 {
   background-color: hsla(62, 0%, 100%, 1);
   background-image: radial-gradient(
@@ -220,4 +221,26 @@ body {
   left: 0;
   border: 2px solid #ff7100;
   width: 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #162023;
+  font-weight: 500;
+  color: #ffffff;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
